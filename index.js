@@ -19,7 +19,7 @@ const MONGO_URL=process.env.MONGO_URL;
 export async function createConnection(){
     const client=new MongoClient(MONGO_URL);
     await client.connect();
-    console.log("Mongo is connected ")
+    console.log("Mongo is connected ✌️ ")
     return client;
   }
 
